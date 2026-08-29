@@ -8,11 +8,19 @@
     {
       "src": "api/auth.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "ml.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/api/auth",
+      "src": "/",
+      "dest": "/ml.js"
+    },
+    {
+      "src": "/v1/ml",
       "dest": "/api/auth.js"
     },
     {
