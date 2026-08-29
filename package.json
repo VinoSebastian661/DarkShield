@@ -1,0 +1,10 @@
+{
+  "name": "serverncz",
+  "version": "1.0.0",
+  "description": "MLHERZFIXLOG.sh Auth Server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
